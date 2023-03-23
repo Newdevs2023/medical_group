@@ -1,0 +1,47 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+#logo-fundo {
+    background: url(../design-figma/Logo-fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-x: center;
+    background-position-y: center;
+    height: 600px;
+
+}
+.container {
+    /* background-color: #333;
+    border: 3px solid red; */
+    padding: 15px;
+    display: grid;
+    gap: 5px; /* Espaçamento entre as colunas */
+
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+    'sidebar content content content content content content content content content content content'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+}
+
+#header {
+    grid-area: header;
+}
+
+#sidebar {
+    grid-area: sidebar;
+}
+
+#content {
+    grid-area: content;
+    height: 420px;
+}
+
+#footer {
+    grid-area: footer;
+}
+
+
+.container div {
+    /* background-color: #ccc; */
+    padding: 20px;
+    border: 1px solid blue;
+}
