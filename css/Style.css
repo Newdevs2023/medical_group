@@ -13,7 +13,7 @@ body {
 
 .container div {
     /* background-color: #ccc; */
-    padding: 13px;
+    padding: 2px;
     border: 1px solid blue;
 }
 
@@ -36,15 +36,23 @@ body {
     grid-area: header;
     background-color: #009452;
     display: flex;
+    justify-content: left;
 }
 
 #logo-da-clinica {
-    background-image: url(../design-figma/logo-da-clinica.png);
-    background-position-x: right;
+    background-image: url(../design-figma/logo-clinica.png);
+    background-repeat: no-repeat;
+    background-size: 190px;
+    /* padding: 1px; */
+    width: 130px;
+    height: 43x;
 }
 
 .voltar {
-    float: right;
+    margin-left: 1041px;
+    /* background-image: url(../design-figma/Seta-voltar.png); */
+    width: 60px;
+    height: 30px;
 }
 
 
@@ -59,10 +67,38 @@ body {
     height: 481px;
 }
 
+/* Trabalhando Rodapé ________________________________________________________*/
+
 #footer {
     grid-area: footer;
     padding-top: 50px;
     background-color: #009452;
 }
+
+.img a {
+    margin-left: 20px;
+    text-decoration: none;
+    margin-right: 40px;
+    color: white;
+   }
+
+#icones {
+    display: flex;
+    float: right;
+    
+   }
+
+
+
+.end {
+    margin-left: 20px;
+}
+
+#img-logo {
+    text-align: right;
+    margin-right: 40px;
+    
+}
+
 
 
