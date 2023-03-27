@@ -3,26 +3,18 @@
 body {
     background: url(../design-figma/plano-fundo.jfif);
     background-repeat: no-repeat;
-    /* background-position-x: center;
-    background-position-y: center; */
-    background-size: 100%;
+    background-size: cover;
     background-position: center;
-    /* height: 200px; */
-    
+    max-width: 100%;
+    height: auto;
 }
 
 .container div {
-    /* background-color: #ccc; */
     padding: 2px;
-    border: 1px solid blue;
 }
 
 .container {
-    /* background-color: #333;
-    border: 3px solid red; */
-    /* padding: 0px; */
     display: grid;
-    /* gap: 5px; Espaçamento entre as colunas */
 
     grid-template-areas:
     'header header header header header header header header header header header header'
@@ -36,23 +28,19 @@ body {
     grid-area: header;
     background-color: #009452;
     display: flex;
-    justify-content: left;
 }
 
 #logo-da-clinica {
-    background-image: url(../design-figma/logo-clinica.png);
-    background-repeat: no-repeat;
-    background-size: 190px;
-    /* padding: 1px; */
-    width: 130px;
-    height: 43x;
+    width: 95%;
+    height: 43px;
+    margin-top: 1px;
 }
 
 .voltar {
-    margin-left: 1041px;
-    /* background-image: url(../design-figma/Seta-voltar.png); */
-    width: 60px;
-    height: 30px;
+    width: 5%;
+    background-size: 35px;
+    background-repeat: no-repeat;
+    justify-content: flex-start;
 }
 
 
@@ -71,33 +59,30 @@ body {
 
 #footer {
     grid-area: footer;
-    padding-top: 50px;
+    padding-top: 5px;
     background-color: #009452;
+    display: flexbox;
+    padding: 5px 0 0 5px;
+    margin-top: 150px;
 }
 
-.img a {
-    margin-left: 20px;
-    text-decoration: none;
-    margin-right: 40px;
+.links-rodape a {
     color: white;
-   }
-
-#icones {
-    display: flex;
-    float: right;
-    
-   }
-
-
+    text-decoration: none;
+    padding: 5px;
+}
 
 .end {
-    margin-left: 20px;
+    color: white;
+    margin-left: 5px;
+    padding-bottom: 5PX;
 }
 
-#img-logo {
-    text-align: right;
-    margin-right: 40px;
-    
+#img-logo ul li{
+    margin-right: 20px;
+    display: flex;
+    float: right;
+    margin-top: 22px;
 }
 
 
