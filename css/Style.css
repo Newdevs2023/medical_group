@@ -10,7 +10,7 @@ body {
 }
 
 .container div {
-    padding: 2px;
+    padding: 13px;
 }
 
 .container {
@@ -84,6 +84,5 @@ body {
     float: right;
     margin-top: 22px;
 }
-
 
 
