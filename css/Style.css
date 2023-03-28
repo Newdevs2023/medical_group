@@ -10,9 +10,7 @@ body {
 }
 
 .container div {
-    /* background-color: #ccc; */
     padding: 13px;
-    border: 1px solid blue;
 }
 
 .container {
@@ -55,8 +53,6 @@ body {
 #content {
     grid-area: content;
     height: 481px;
-    text-align: center;
-    font-size: 18px;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
