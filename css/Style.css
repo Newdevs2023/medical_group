@@ -28,19 +28,16 @@ body {
     grid-area: header;
     background-color: #009452;
     display: flex;
+    padding: 0;
+    height: 60px;
 }
 
 #logo-da-clinica {
     width: 95%;
-    height: 43px;
-    margin-top: 1px;
 }
 
 .voltar {
     width: 5%;
-    background-size: 35px;
-    background-repeat: no-repeat;
-    justify-content: flex-start;
 }
 
 

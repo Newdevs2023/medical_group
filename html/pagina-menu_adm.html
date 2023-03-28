@@ -5,44 +5,82 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Menu ADM</title>
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
+
 <body>
-    <!-- Aqui sera o cabeçalho -->
-    <div>Logotipo da clinica << / >> Botão Voltar</div>
+    <div class="container" id="template-areas" id="plano-fundo">
+        <div id="header">
+            <div id="logo-da-clinica">
+                <a href="index.html"><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
+            </div>
+            <div class="voltar">
+                <a href="index.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
+            </div>
+        </div>
 
-    <!-- Corpo central -->
-    <div>
-        <h1>14 de Março de 2023</h1>
-        <h4>Terça-Feira</h4><Br>
-        Pesquisar <!--(icone de lupa/pesquisa)--><br>
-        08:30 - Fernanda Correa de Souza<br>
-        09:00 - Cássio Alves Pinheiro<br>
-        09:30 - Pedro Augusto Bernardes<br>
-        10:00 - Tania Alves Moreira<br>
-        10:30 - Ana Clara Botelho<br>
-        11:00 - Nilda Francisca<br>
-        11:30 - Intervalo de Almoço<br>
-    </div><Br>
+        <div id="sidebar">
+            Area de navegação
+        </div>
+        
+        <div id="content">
+            <!-- Corpo central -->
+            <div>
+                <h1>14 de Março de 2023</h1>
+                <h4>Terça-Feira</h4><Br>
+                Pesquisar <!--(icone de lupa/pesquisa)--><br>
+                08:30 - Fernanda Correa de Souza<br>
+                09:00 - Cássio Alves Pinheiro<br>
+                09:30 - Pedro Augusto Bernardes<br>
+                10:00 - Tania Alves Moreira<br>
+                10:30 - Ana Clara Botelho<br>
+                11:00 - Nilda Francisca<br>
+                11:30 - Intervalo de Almoço<br>
+            </div><Br>
 
-    <!-- Links na Lateral Esquerda -->
-    <div>
-        <a href="http://www.google.com" target="_blank">Novo Cadastro</a><br>
-        <a href="http://www.google.com" target="_blank">Nova Agenda</a><br>
-        <a href="http://www.google.com" target="_blank">Cancelar Consulta</a><br>
-        <a href="http://www.google.com" target="_blank">Consultas Agendadas</a><br>
-        <a href="http://www.google.com" target="_blank">Informações da Clinica</a><Br>
-    </div><br>
+            <!-- Links na Lateral Esquerda -->
+            <div>
+                <a href="http://www.google.com" target="_blank">Novo Cadastro</a><br>
+                <a href="http://www.google.com" target="_blank">Nova Agenda</a><br>
+                <a href="http://www.google.com" target="_blank">Cancelar Consulta</a><br>
+                <a href="http://www.google.com" target="_blank">Consultas Agendadas</a><br>
+                <a href="http://www.google.com" target="_blank">Informações da Clinica</a><Br>
+            </div><br>
 
+            <div>
+                    Dra Leticia <br><br>
+                <ul> 
+                    <li><!-- Circulo verde -->Presença<br></li>
+                    <li><!-- Circulo Vermelho  -->Falta<br></li>
+                    <li><!-- Circulo Roxo-->Cancelado<br></li>
+                    <li><!-- Circulo Amarelo-->Confirmado<br></li>
+                </ul>
+            </div><br>
+        </div>
+    </div>
+
+    <footer>     
+        <div id="footer">
+            <div id="img-logo">
+                <ul>
+                    <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/instagram.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
+                </ul>
+            </div>
+
+            <div class="links-rodape">
+                <a href="informacoes-k.html" target=""><b>Contato</b></a>
+                <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
+                <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
+            </div>
+            
+            <div class="end">
+                <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
+            </div>
+        
+        </div>
+    </footer> 
     
-    <div>
-            Dra Leticia <br><br>
-        <ul> 
-            <li><!-- Circulo verde -->Presença<br></li>
-            <li><!-- Circulo Vermelho  -->Falta<br></li>
-            <li><!-- Circulo Roxo-->Cancelado<br></li>
-            <li><!-- Circulo Amarelo-->Confirmado<br></li>
-        </ul>
-    </div><br>
-   
 </body>
 </html>
