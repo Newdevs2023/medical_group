@@ -4,15 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Consulta médico</title>
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
+    
 <body>
-    <h1>Olá {Doutor},<br>Suas agendas são:</h1><br>
-    <p>Filtrar por Data</p>
+    <div class="container" id="template-areas" id="plano-fundo">
+        <div id="header">
+            <div id="logo-da-clinica">
+                <a href="index.html"><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
+            </div>
+            <div class="voltar">
+                <a href="index.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
+            </div>
+        </div>
+        
+        <div id="content">
+            <h1>Olá {Doutor},<br>Suas agendas são:</h1><br>
+            <p>Filtrar por Data</p>
 
-    <input type="date" value="14-03-2023" name="Selecione uma data" id="calendario"><br><br>
+            <input type="date" value="14-03-2023" name="Selecione uma data" id="calendario"><br><br>
 
-    <input type="submit" name="btn-voltar" value="Voltar">
-    <input type="search" name="descrição" value="Adicionar descrição">
+            <input type="submit" name="btn-voltar" value="Voltar">
+            <input type="search" name="descrição" value="Adicionar descrição">
+        </div>
+
+        
+    </div>
+
+    <footer>     
+        <div id="footer">
+            <div id="img-logo">
+                <ul>
+                    <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/instagram.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
+                </ul>
+            </div>
+
+            <div class="links-rodape">
+                <a href="informacoes-k.html" target=""><b>Contato</b></a>
+                <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
+                <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
+            </div>
+            
+            <div class="end">
+                <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
+            </div>
+        
+        </div>
+    </footer> 
+    
 </body>
-</html>
+</html>   

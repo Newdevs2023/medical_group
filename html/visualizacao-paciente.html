@@ -1,25 +1,68 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt.bt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Visualização do paciente</title>
+    <title>Index</title>
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
+
 <body>
-    <h1>Nome Completo:</h1>
-    <h2>Data de Nascimento:</h2>
-    <h3>Número da Carteirinha:</h3>
-    <h4>Consultas agendadas:</h4>
-    <h5>Informações sobre a consulta</h5>
-    <h6>Informações sobre a consulta</h6>
-    <ol type="A">
-        <li>Data: 23/02/2023</li>
-        <li>Horário: 09:30</li>
-        <li>Médico: Dr. Luiz Duarte</li>
-        <li>Local: Sala 3</li>
-        <li>Especialidade: Clínico Geral</li>
-    </ol>
-    <input type="submit" name="btnveragendas" value="Ver agendas">
+    <div class="container" id="template-areas" id="plano-fundo">
+        <div id="header">
+            <div id="logo-da-clinica">
+                <a href="index.html"><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
+            </div>
+            <div class="voltar">
+                <a href="index.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
+            </div>
+        </div>
+
+        <div id="sidebar">
+            Area de navegação
+        </div>
+        
+        <div id="content">
+            <h1>Nome Completo:</h1>
+            <h2>Data de Nascimento:</h2>
+            <h3>Número da Carteirinha:</h3>
+            <h4>Consultas agendadas:</h4>
+            <h5>Informações sobre a consulta</h5>
+            <h6>Informações sobre a consulta</h6>
+            <ol type="A">
+                <li>Data: 23/02/2023</li>
+                <li>Horário: 09:30</li>
+                <li>Médico: Dr. Luiz Duarte</li>
+                <li>Local: Sala 3</li>
+                <li>Especialidade: Clínico Geral</li>
+            </ol>
+            <input type="submit" name="btnveragendas" value="Ver agendas">
+        </div>
+    </div>
+
+    <footer>     
+        <div id="footer">
+            <div id="img-logo">
+                <ul>
+                    <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/instagram.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
+                </ul>
+            </div>
+
+            <div class="links-rodape">
+                <a href="informacoes-k.html" target=""><b>Contato</b></a>
+                <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
+                <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
+            </div>
+            
+            <div class="end">
+                <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
+            </div>
+        
+        </div>
+    </footer> 
+    
 </body>
 </html>
