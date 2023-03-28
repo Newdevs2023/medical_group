@@ -1,57 +1,94 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt.bt">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina de Cadastro Adm</title>
+    <title>GRID</title>
     <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
-    <form action="container" method="get">
+    <div class="container" id="template-areas" id="plano-fundo">
+        <div id="header">
+            <div id="logo-da-clinica">
+                <a href=""><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="45px"></a>
+            </div>
+            <div class="voltar">
+                <a href=""><img src="../design-figma/Seta-voltar.png" alt="" width="42px" height="38px"></a>
+            </div>
+        </div>
+        
+        <div id="content">
+            <form action="container" method="get">
     
-        <select name="Selecione o tipo de Cadastro" id="">
-            <option value="selecione o tipo de Cadastro">Selecione o Tipo de Cadastro</option>
-            <option value="medico">Médico</option>
-            <option value="paciente">Paciente</option>
-            <option value="administrador">Administrador</option>
-        </select><br><br>
-            Nome Completo:<br>
-            <input type="text" name="nome completo"required autocomplete="on
-            "><br>
+                <select name="Selecione o tipo de Cadastro" id="">
+                    <option value="selecione o tipo de Cadastro">Selecione o Tipo de Cadastro</option>
+                    <option value="medico">Médico</option>
+                    <option value="paciente">Paciente</option>
+                    <option value="administrador">Administrador</option>
+                </select><br><br>
+                    Nome Completo:<br>
+                    <input type="text" name="nome completo"required autocomplete="on
+                    "><br>
+        
+                    Data de Nascimento:<br>
+                    <input type="text" name="data de nascimento"required ><br>
+        
+                    Numero da Carteirinha:<br>
+                    <input type="text" name="numero da carteirinha"required ><br>
+        
+                    Telefone:<br>
+                    <input type="text" name="telefone"required placeholder="(99)99999-9999"><br>
+        
+                    Especialidade:<br>
+                    <input type="text" name="especialidade"required ><br>
+        
+                    RG:<br>
+                    <input type="text" name="RG"required ><br>
+        
+                    CPF:<br>
+                    <input type="text" name="CPF"required ><br>
+        
+                    Endereco:<br>
+                    <input type="text" name="endereco"required ><br>
+        
+                    Convenio:<br>
+                    <input type="text" name="convenio"required ><br>
+        
+                    Email:<br>
+                    <input type="email" name="email"required placeholder="seuemail@gmail.com"><br>
+        
+                    Imagem:<br>
+                    <input type="file" name="imagem"><br><br>
+        
+                    <input type="submit" name="btn-enviar" value="Enviar"><br><br>
+                    <input type="submit" name="btn-cancelar" value="Cancelar">
+            </form>
+        </div>
+    </div>
 
-            Data de Nascimento:<br>
-            <input type="text" name="data de nascimento"required ><br>
+    <footer>     
+        <div id="footer">
+            <div id="img-logo">
+                <ul>
+                    <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/instagram.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
+                </ul>
+            </div>
 
-            Numero da Carteirinha:<br>
-            <input type="text" name="numero da carteirinha"required ><br>
-
-            Telefone:<br>
-            <input type="text" name="telefone"required placeholder="(99)99999-9999"><br>
-
-            Especialidade:<br>
-            <input type="text" name="especialidade"required ><br>
-
-            RG:<br>
-            <input type="text" name="RG"required ><br>
-
-            CPF:<br>
-            <input type="text" name="CPF"required ><br>
-
-            Endereco:<br>
-            <input type="text" name="endereco"required ><br>
-
-            Convenio:<br>
-            <input type="text" name="convenio"required ><br>
-
-            Email:<br>
-            <input type="email" name="email"required placeholder="seuemail@gmail.com"><br>
-
-            Imagem:<br>
-            <input type="file" name="imagem"><br><br>
-
-            <input type="submit" name="btn-enviar" value="Enviar"><br><br>
-            <input type="submit" name="btn-cancelar" value="Cancelar">
-    </form>
+            <div class="links-rodape">
+                <a href="#" target="_self"><b>Contato</b></a>
+                <a href="#" target="_self"><b>Quem Somos</b></a>
+                <a href="#" target="_self"><b>Serviços</b></a><br><br><br>
+            </div>
+            
+            <div class="end">
+                <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
+            </div>
+        
+        </div>
+    </footer> 
+    
 </body>
 </html>
