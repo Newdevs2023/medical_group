@@ -40,16 +40,80 @@ body {
     width: 5%;
 }
 
+.txt {
+    color: #fff;
+}
+
 
 /* Trabalhando a barra de navegação ________________________________________________________*/
+.fundo {
+    display: flex;
+}
+
+#fundo-barra {
+    background-image: url('../design-figma/Reader_Barra.png') ;
+    background-size: 1270px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 310px;
+    
+}
 
 #sidebar {
     grid-area: sidebar;
+    width: 400px;
+    height:630px;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 20px;
 }
+
+.h3 {
+    font-weight: normal;
+}
+
+.interno-sidebar {
+    margin: 20px;
+}
+
+.botoes {
+    padding: 50px;
+    margin: 50px;
+}
+
+.botoes-content {
+    margin-left: 190px;
+    margin-top: 120px;
+    max-width: 500px;
+    height: 250px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.box {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.box:hover {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #009451af;
+}
+
+
 
 #content {
     grid-area: content;
     height: 481px;
+    display: flex;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
@@ -60,7 +124,7 @@ body {
     background-color: #009452;
     display: flexbox;
     padding: 5px 0 0 5px;
-    margin-top: 150px;
+    margin-top: 400px;
 }
 
 .links-rodape a {
@@ -70,7 +134,7 @@ body {
 }
 
 .end {
-    color: white;
+    color: #fff;
     margin-left: 5px;
     padding-bottom: 5PX;
 }
@@ -82,22 +146,69 @@ body {
     margin-top: 22px;
 }
 
-/* informacoes da pagina */
+/*Pagina visualização paciente*/ 
+.retangulopadrao {
+background-color: #FFFFFF;
+color: #000;
+width: 650px;
+height: 70px;
+border-radius: 20px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+font-size: medium;
+position:relative;
+border: 0px;
+font-size:larger;
+}
+.infos {
+background-color: #FFFFFF;
+color: #000;
+width: 450px;
+height: 450px;
+padding: 15px;
+font-size: 30px;
+border-radius: 15px;
+margin-left: 80px;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 80px;
+text-decoration: underline;
+}
+#btnveragendas{
+    background-color: #08474C;
+    color: #FFFFFF;
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 130px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    text-align: center;
+}
 
-.titulo_informacoes{
+
+/* pagina quem somos_____________________________________ */
+
+.titulo_bemestar_quemsomos {
+    margin: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 20px;
+    
 }
 
-.subtitulo_informacoes{
-    font-size: 24px;
+.subtitulo_quemsomos {
+    margin: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.conteudo_informacoes{
-    margin: 50px;
+.p-paginaquemsomos {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.conteudo_informacoes p{
-    font-size: 20px;
-}
