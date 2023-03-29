@@ -40,12 +40,75 @@ body {
     width: 5%;
 }
 
+.txt {
+    color: #fff;
+}
+
 
 /* Trabalhando a barra de navegação ________________________________________________________*/
+.fundo {
+    display: flex;
+}
+
+#fundo-barra {
+    background-image: url('../design-figma/Reader_Barra.png') ;
+    background-size: 1270px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 310px;
+    
+}
 
 #sidebar {
     grid-area: sidebar;
+    width: 400px;
+    height:630px;
+    background-color: white;
+    margin-left: 40px;
+    border-radius: 20px;
 }
+
+.h3 {
+    font-weight: normal;
+}
+
+.interno-sidebar {
+    margin: 20px;
+}
+
+.botoes {
+    padding: 50px;
+    margin: 50px;
+}
+
+.botoes-content {
+    margin-left: 190px;
+    margin-top: 120px;
+    max-width: 500px;
+    height: 250px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.box {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.box:hover {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #009451af;
+}
+
+
 
 #content {
     grid-area: content;
@@ -60,7 +123,7 @@ body {
     background-color: #009452;
     display: flexbox;
     padding: 5px 0 0 5px;
-    margin-top: 150px;
+    margin-top: 400px;
 }
 
 .links-rodape a {
@@ -70,7 +133,7 @@ body {
 }
 
 .end {
-    color: white;
+    color: #fff;
     margin-left: 5px;
     padding-bottom: 5PX;
 }
