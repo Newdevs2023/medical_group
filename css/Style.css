@@ -82,4 +82,22 @@ body {
     margin-top: 22px;
 }
 
+/* informacoes da pagina */
 
+.titulo_informacoes{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+
+.subtitulo_informacoes{
+    font-size: 24px;
+}
+
+.conteudo_informacoes{
+    margin: 50px;
+}
+
+.conteudo_informacoes p{
+    font-size: 20px;
+}
