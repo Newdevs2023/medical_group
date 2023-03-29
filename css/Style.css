@@ -113,7 +113,6 @@ body {
 #content {
     grid-area: content;
     height: 481px;
-    display: flex;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
