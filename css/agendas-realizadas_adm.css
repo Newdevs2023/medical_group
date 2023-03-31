@@ -61,7 +61,7 @@ body {
 
 #sidebar {
     grid-area: sidebar;
-    width: 430px;
+    width: 400px;
     height:630px;
     background-color: white;
     margin-left: 40px;
@@ -113,6 +113,7 @@ body {
 #content {
     grid-area: content;
     height: 481px;
+    display: inline;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
@@ -123,7 +124,7 @@ body {
     background-color: #009452;
     display: flexbox;
     padding: 5px 0 0 5px;
-    margin-top: 10%;
+    margin-top: 400px;
 }
 
 .links-rodape a {
@@ -144,27 +145,41 @@ body {
     float: right;
     margin-top: 22px;
 }
-
-
-
-
-/* pagina quem somos_____________________________________ */
-
-.titulo_bemestar_quemsomos {
-    margin: 20px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+/*Agendas realizadas ADM*/
+#conteudo {
+    display: table-cell;
 }
 
-.subtitulo_quemsomos {
-    margin: 12px;
+/*tabela*/
+table, th ,  td {
+    border-radius: 20px;
+    border-collapse: collapse #000;
+    background-color: #fff;
+    width: 500px;
+    height: 5px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.p-paginaquemsomos {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
+  }
+  table{
+    float: left;
+  }
+  .cancelar{
+    color: #fff;
+    background-color: #08474C;
+    border: 2px solid #08474C;
+    border-radius: 20px;
+    padding: 5px 20px;
+    height: 45px;
+    width: 30%;
+    margin-top: 150px;
+  }
+  .selecionedata{
+    float: right;
+    font-size:larger;
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+  #filtrarpordata {
+    float: right;
+    margin-left: 600px;
+    margin-top: 50px;
+  }
