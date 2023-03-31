@@ -5,26 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de agendamento ADM</title>
+    <link rel="stylesheet" href="../css/Style.css">
 </head>
 <body>
-    <h1>Nome do paciente</h1>
-    <select name="Selecione uma Especialidade">
-        <option value="Selecione">Selecione</option>
-        <option value="Pediatria">Pediatria</option>
-        <option value="clinico Geral">Clinico Geral</option>
-        <option value="Oftalmologista">Oftalmologista</option>
-    </select><br>
-    <select name="Selecione um Medico">
-        <option value="Selecione">Selecione</option>
-        <option value="Lawrence Heller">Lawrence Heller</option>
-        <option value="Neal Zulauf">Neal Zulauf</option>
-        <option value="Larry Oberbrunner">Larry Oberbrunner</option>
-        <option value="Blanca Wisoky">Blanca Wisoky</option>
-        <option value="Martin Bergnaum">Martin Bergnaum</option>
-    </select><br>
-    <input type="date" value="14-03-2023" name="Selecione uma data" id="calendario"><br>
-    <input type="submit" name="btncadastrar" value="Cadastrar">
-    <input type="submit" name="btncancelar" value="Cancelar">
-    <input type="submit" name="btnveragendas" value="Ver todas as agendas">
+
+<body>
+    <div class="container" id="template-areas" id="plano-fundo">
+        <div id="header">
+            <div id="logo-da-clinica">
+                <a href="index.html"><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
+            </div>
+            <div class="voltar">
+                <a href="index.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
+            </div>
+        </div>
+        
+        <div id="content">
+            
+            <div>
+                <input class="calendario" type="date" value="14-03-2023" name="Selecione uma data" id="calendario"><br>
+            </div>
+
+            <div>
+                <input class="retangulopadrao_cadastroagendamento_adm" type="text" name="telefone"required placeholder="Nome Paciente"><br>
+            </div>
+
+            <div>
+                <select class="retangulopadrao_cadastroagendamento_adm" name="Selecione uma Especialidade"> 
+                    <option value="Selecione">Selecione a especialidade</option>
+                    <option value="Pediatria">Pediatria</option>
+                    <option value="clinico Geral">Clinico Geral</option>
+                    <option value="Oftalmologista">Oftalmologista</option>
+                </select><br>
+            </div>
+            <div>
+                <select class="retangulopadrao_cadastroagendamento_adm" name="Selecione um Medico">
+                    <option value="Selecione">Selecione o médico</option>
+                    <option value="Lawrence Heller">Lawrence Heller</option>
+                    <option value="Neal Zulauf">Neal Zulauf</option>
+                    <option value="Larry Oberbrunner">Larry Oberbrunner</option>
+                    <option value="Blanca Wisoky">Blanca Wisoky</option>
+                    <option value="Martin Bergnaum">Martin Bergnaum</option>
+                </select><br>
+            </div>
+
+            <div>
+                <input class="btn_cadastroagendamento_adm" type="submit" value="Cadastrar">
+                <input class="btn_cadastroagendamento_adm" type="submit" value="Cancelar">
+                <input class="btn_cadastroagendamento_adm" type="submit" value="Ver todas agendas">
+            </div>
+
+            <div></div>
+
+        </div>
+    </div>
+
+    <footer>     
+        <div id="footer">
+            <div id="img-logo">
+                <ul>
+                    <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/instagram.png" alt="" width="30px" alt=""></li></a>
+                    <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
+                </ul>
+            </div>
+
+            <div class="links-rodape">
+                <a href="informacoes-k.html" target=""><b>Contato</b></a>
+                <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
+                <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
+            </div>
+            
+            <div class="end">
+                <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
+            </div>
+        
+        </div>
+    </footer> 
+    
 </body>
 </html>
