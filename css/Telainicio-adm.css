@@ -44,61 +44,6 @@ body {
     color: #fff;
 }
 
-.bolinha {
-    display: flex;
-    align-items: center;
-    height: 50px;
-}
-.bolinha1 {
-    display: flex;
-    align-items: center;
-    height: 35px;
-}
-
-.btn {
-    background-color: #fff;
-    margin-left: 20px;
-    width: 400px;
-    height: 40px;
-    border-radius: 10px;
-    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
-}
-.btnn {
-    background-color: #fff;
-    margin-left: 20px;
-    width: 440px;
-    height: 40px;
-    border-radius: 10px;
-    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
-}
-
-.btn1 {
-    background-color: #12f012;
-    width: 3px;
-    height: 3px;
-    border-radius: 14px;
-    margin-bottom: 1px;
-}
-
-.btn2 {
-    background-color: red;
-    width: 3px;
-    height: 3px;
-    border-radius: 14px;
-}
-.btn3 {
-    background-color: rgb(208, 0, 255);
-    width: 3px;
-    height: 3px;
-    border-radius: 14px;
-}
-
-.btn4 {
-    background-color: yellow;
-    width: 3px;
-    height: 3px;
-    border-radius: 14px;
-}
 
 /* Trabalhando a barra de navegação ________________________________________________________*/
 .fundo {
@@ -111,22 +56,16 @@ body {
     background-repeat: no-repeat;
     margin-top: 40px;
     height: 310px;
+    
 }
 
 #sidebar {
     grid-area: sidebar;
-    width: 210px;
-    height:600px;
+    width: 420px;
+    height:630px;
     background-color: white;
-}
-
-.links-lateral-esq a{
-    text-decoration: none;
-}
-
-.links-lateral-esq {
-    margin-top: 140px;
-    text-align: center;
+    margin-left: 40px;
+    border-radius: 20px;
 }
 
 .h3 {
@@ -169,58 +108,12 @@ body {
     background-color: #009451af;
 }
 
+
+
 #content {
     grid-area: content;
     height: 481px;
 }
-
-.cor-texto {
-    color: #fff;
-    text-shadow: 0.1em 0.1em 0.4em black;
-}
-
-#dra {
-    margin-left: 200px;
-}
-
-.divisao {
-    display: flex;
-}
-
-.coluna {
-    flex-basis: 50%;
-}
-
-.leticia {
-    background-color: #fff;
-    width: 230px;
-    height: 30px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
-    margin-bottom: 10px;
-}
-
-.legenda {
-    background-color: #fff;
-    width: 230px;
-    height: 200px;
-    text-align: center;
-    border-radius: 5px;
-    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
-}
-
-.legenda1 {
-    background-color: rgba(214, 212, 212, 0.792);
-    width: 170px;
-    height: 30px;
-    margin-top: 4px;
-    margin-left: 20px;
-    border-radius: 5px;
-    text-align: center;
-    font-size: 14px ;   
-}
-
 
 /* Trabalhando Rodapé ________________________________________________________*/
 
@@ -230,6 +123,7 @@ body {
     background-color: #009452;
     display: flexbox;
     padding: 5px 0 0 5px;
+    margin-top: 400px;
 }
 
 .links-rodape a {
@@ -251,5 +145,69 @@ body {
     margin-top: 22px;
 }
 
+/*Pagina visualização paciente*/ 
+.retangulopadrao {
+background-color: #FFFFFF;
+color: #000;
+width: 650px;
+height: 70px;
+border-radius: 20px;
+text-align: left;
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px;
+font-size: medium;
+position:relative;
+border: 0px;
+font-size:larger;
+}
+.infos {
+background-color: #FFFFFF;
+color: #000;
+width: 450px;
+height: 450px;
+padding: 15px;
+font-size: 30px;
+border-radius: 15px;
+margin-left: 80px;
+text-align: left;
+margin-top: 20px;
+margin-bottom: 20px;
+margin-left: 80px;
+text-decoration: underline;
+}
+#btnveragendas{
+    background-color: #08474C;
+    color: #FFFFFF;
+    width: 250px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 130px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    text-align: center;
+}
 
+
+/* pagina quem somos_____________________________________ */
+
+.titulo_bemestar_quemsomos {
+    margin: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.subtitulo_quemsomos {
+    margin: 12px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p-paginaquemsomos {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
