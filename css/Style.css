@@ -168,3 +168,40 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+
+/* Pagina cadastro agendamento ADM __________________________________________________*/
+
+#calendario {
+    margin: 20px;
+    float: right;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.retangulopadrao_cadastroagendamento_adm {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    font-size:larger;
+}
+
+.btn_cadastroagendamento_adm {
+    color: #fff;
+    background-color: #08474C;
+    border: 2px solid #08474C;
+    border-radius: 20px;
+    padding: 5px 20px;
+    height: 45px;
+    width: 30%;
+    margin-top: 150px;
+}
+
+
