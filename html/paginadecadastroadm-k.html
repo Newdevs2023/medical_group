@@ -22,51 +22,47 @@
             <form action="container" method="get">
     
                 <select name="Selecione o tipo de Cadastro" id="">
-                    <option class="tipodecadastro" value="selecione o tipo de Cadastro">Selecione o Tipo de Cadastro</option>
+                    <option value="selecione o tipo de Cadastro">Selecione o Tipo de Cadastro</option>
                     <option value="medico">Médico</option>
                     <option value="paciente">Paciente</option>
                     <option value="administrador">Administrador</option>
                 </select><br><br>
-                <div class="div_inputs">
-                    <div class="inputs_coluna_1">
-                        Nome Completo:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="nome completo"required ><br>
-            
-                        Data de Nascimento:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="data de nascimento"required ><br>
-            
-                        Numero da Carteirinha:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="numero da carteirinha"required ><br>
-            
-                        Telefone:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="telefone"required placeholder="(99)99999-9999"><br>
-            
-                        Especialidade:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="especialidade"required ><br>
-            
-                        RG:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="RG"required ><br>
-                    </div>
-                    <div class="inputs_coluna_2">
-                        CPF:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="CPF"required ><br>
-            
-                        Endereco:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="endereco"required ><br>
-            
-                        Convenio:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="convenio"required ><br>
-            
-                        Email:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="email" name="email"required placeholder="seuemail@gmail.com"><br>
-                    </div>
-                </div>
-                
-                <div class="btn_enviar_cancelar">
-                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_enviar" type="submit" name="btn-enviar" value="Enviar"><br><br>
-
-                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_cancelar" type="submit" name="btn-cancelar" value="Cancelar">
-                </div>
+                    Nome Completo:<br>
+                    <input type="text" name="nome completo"required autocomplete="on
+                    "><br>
+        
+                    Data de Nascimento:<br>
+                    <input type="text" name="data de nascimento"required ><br>
+        
+                    Numero da Carteirinha:<br>
+                    <input type="text" name="numero da carteirinha"required ><br>
+        
+                    Telefone:<br>
+                    <input type="text" name="telefone"required placeholder="(99)99999-9999"><br>
+        
+                    Especialidade:<br>
+                    <input type="text" name="especialidade"required ><br>
+        
+                    RG:<br>
+                    <input type="text" name="RG"required ><br>
+        
+                    CPF:<br>
+                    <input type="text" name="CPF"required ><br>
+        
+                    Endereco:<br>
+                    <input type="text" name="endereco"required ><br>
+        
+                    Convenio:<br>
+                    <input type="text" name="convenio"required ><br>
+        
+                    Email:<br>
+                    <input type="email" name="email"required placeholder="seuemail@gmail.com"><br>
+        
+                    Imagem:<br>
+                    <input type="file" name="imagem"><br><br>
+        
+                    <input type="submit" name="btn-enviar" value="Enviar"><br><br>
+                    <input type="submit" name="btn-cancelar" value="Cancelar">
             </form>
         </div>
     </div>
