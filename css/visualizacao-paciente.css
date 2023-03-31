@@ -1,4 +1,45 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+/*Pagina visualização paciente*/ 
+.retangulopadrao {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 650px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    border: 0px;
+    font-size:larger;
+    }
+    .infos {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 80px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    text-decoration: underline;
+    }
+    #btnveragendas{
+        color: #fff;
+        background-color: #08474C;
+        border: 2px solid #08474C;
+        border-radius: 20px;
+        padding: 5px 20px;
+        height: 45px;
+        width: 30%;
+        margin-top: 150px;
+    }
+    * {margin: 0; padding: 0; box-sizing: border-box;}
 
 body {
     background: url(../design-figma/plano-fundo.jfif);
@@ -61,7 +102,7 @@ body {
 
 #sidebar {
     grid-area: sidebar;
-    width: 430px;
+    width: 400px;
     height:630px;
     background-color: white;
     margin-left: 40px;
@@ -113,6 +154,7 @@ body {
 #content {
     grid-area: content;
     height: 481px;
+    display: flex;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
@@ -143,94 +185,4 @@ body {
     display: flex;
     float: right;
     margin-top: 22px;
-}
-
-
-
-
-/* pagina quem somos_____________________________________ */
-
-.titulo_bemestar_quemsomos {
-    margin: 20px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
-}
-
-.subtitulo_quemsomos {
-    margin: 12px;
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.p-paginaquemsomos {
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
-.retangulopadrao_paginadecadastroadm-k {
-    background-color: #FFFFFF;
-    color: #000;
-    width: 500px;
-    height: 35px;
-    border-radius: 20px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    font-size: medium;
-    position:relative;
-    border: 0px;
-    font-size:larger;
-    }
-
-.inputs_coluna_2{
-    margin-left: 100px;
-}
-
-.div_inputs {
-    display: flex;
-}
-
-/* Página de cadastro adm, editando botões______________________________________ */
-
-.botoes_paginadecadastroadm-k{
-    color: #fff;
-    background-color: #08474C;
-    border: 2px solid #08474C;
-    border-radius: 20px;
-    padding: 5px 20px;
-    height: 45px;
-    width: 30%;
-    margin-top: 150px;
-}
-
-.btn_enviar_cancelar{
-    display: flex;
-    justify-content: center;
-}
-
-#botoes_paginadecadastroadm-k_btn_enviar{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    margin-right: 140px;
-}
-
-#botoes_paginadecadastroadm-k_btn_cancelar{
-    display: flex;
-    justify-content: center;
-    margin: 20px;
-    margin-left: 100px;
-}
-
-.tipodecadastro{
-    font-size: 20px;
-    
-}
-
-/* Pagina agendas paciente, adiconado cor de fundo na tabela_____________________ */
-
-table{
-    background-color:white;
 }
