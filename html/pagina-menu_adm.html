@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Menu ADM</title>
-    <link rel="stylesheet" href="../css/Style.css">
+    <link rel="stylesheet" href="../css/pagina-menu_adm.css">
 </head>
 
 <body>
@@ -20,42 +20,84 @@
         </div>
 
         <div id="sidebar">
-            Area de navegação
+             <!-- Links na Lateral Esquerda -->
+             <div class="links-lateral-esq">
+                <a href="http://www.google.com" target="_blank"><h4><p>Novo Cadastro</p></h4></a><br><br>
+                <a href="http://www.google.com" target="_blank"><h4><p>Nova Agenda</p></h4></a><br><br>
+                <a href="http://www.google.com" target="_blank"><h4><p>Cancelar Consulta</p></h4></a><br><br>
+                <a href="http://www.google.com" target="_blank"><h4><p>Consultas Agendadas</p></h4></a><br><br>
+                <a href="http://www.google.com" target="_blank"><h4><p>Informações da Clinica</p></h4></a><Br>
+            </div><br>
         </div>
         
         <div id="content">
             <!-- Corpo central -->
-            <div>
-                <h1>14 de Março de 2023</h1>
-                <h4>Terça-Feira</h4><Br>
-                Pesquisar <!--(icone de lupa/pesquisa)--><br>
-                08:30 - Fernanda Correa de Souza<br>
-                09:00 - Cássio Alves Pinheiro<br>
-                09:30 - Pedro Augusto Bernardes<br>
-                10:00 - Tania Alves Moreira<br>
-                10:30 - Ana Clara Botelho<br>
-                11:00 - Nilda Francisca<br>
-                11:30 - Intervalo de Almoço<br>
-            </div><Br>
-
-            <!-- Links na Lateral Esquerda -->
-            <div>
-                <a href="http://www.google.com" target="_blank">Novo Cadastro</a><br>
-                <a href="http://www.google.com" target="_blank">Nova Agenda</a><br>
-                <a href="http://www.google.com" target="_blank">Cancelar Consulta</a><br>
-                <a href="http://www.google.com" target="_blank">Consultas Agendadas</a><br>
-                <a href="http://www.google.com" target="_blank">Informações da Clinica</a><Br>
-            </div><br>
-
-            <div>
-                    Dra Leticia <br><br>
-                <ul> 
-                    <li><!-- Circulo verde -->Presença<br></li>
-                    <li><!-- Circulo Vermelho  -->Falta<br></li>
-                    <li><!-- Circulo Roxo-->Cancelado<br></li>
-                    <li><!-- Circulo Amarelo-->Confirmado<br></li>
-                </ul>
-            </div><br>
+            <div id="pesquisar">
+                <h1 class="cor-texto">14 de Março de 2023</h1>
+                <h4 class="cor-texto">Terça-Feira</h4>
+            </div>
+            <div class="divisao">
+                <div class="coluna">
+                    <form>
+                        <input class="btnn" type="text" name="searchQuery" placeholder="Digite sua pesquisa aqui" >
+                    </form>
+                    <div class="bolinha">
+                        <div class="btn1"></div>
+                        <div class="btn">08:00 - Leandro Oliveira Batista</div>
+                    </div>
+                    <div class="bolinha" >
+                        <div class="btn1"></div>
+                        <div class="btn">08:30 - Fernanda Correa de Souza</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn1"></div>
+                        <div class="btn">09:00 - Cássio Alves Pinheiro</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn2"></div>
+                        <div class="btn">09:30 - Pedro Augusto Bernardes</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn3"></div>
+                        <div class="btn">10:00 - Tania Alves Moreira</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn1"></div>
+                        <div class="btn">10:30 - Ana Clara Botelho</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn4"></div>
+                        <div class="btn">11:00 - Nilda Francisca</div>
+                    </div>
+                    <div class="bolinha">
+                        <div class="btn1"></div>
+                        <div class="btn">11:30 - <s>Intervalo de Almoço</s></div>
+                    </div>
+                    
+                </div>
+                <div class="coluna" id="dra">
+                     <div class="leticia">Dra Leticia</div> 
+                       <div class="legenda">
+                            <p>Estatisticas do Dia</p><br>
+                            <div class="bolinha1">
+                                <div class="btn1"></div>
+                                <div class="legenda1">Presença</div>
+                            </div>
+                            <div class="bolinha1">
+                                <div class="btn2"></div>
+                                <div class="legenda1">Falta</div>
+                            </div>
+                            <div class="bolinha1">
+                                <div class="btn3"></div>
+                                <div class="legenda1">Cancelado</div>
+                            </div>
+                            <div class="bolinha1">
+                                <div class="btn4"></div>
+                                <div class="legenda1">Confirmado</div>
+                            </div>
+                        </div>
+                </div><br>
+            </div>
         </div>
     </div>
 
@@ -68,19 +110,15 @@
                     <li><a href=""><img src="../design-figma/twitter.png" alt="" width="30px" alt=""></li></a>
                 </ul>
             </div>
-
             <div class="links-rodape">
                 <a href="informacoes-k.html" target=""><b>Contato</b></a>
                 <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
                 <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
             </div>
-            
             <div class="end">
                 <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
             </div>
-        
         </div>
     </footer> 
-    
 </body>
 </html>

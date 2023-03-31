@@ -1,0 +1,253 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+
+body {
+    background: url(../design-figma/plano-fundo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 100%;
+    height: auto;
+}
+
+.container div {
+    padding: 13px;
+}
+
+.container {
+    display: grid;
+
+    grid-template-areas:
+    'header header header header header header header header header header header header'
+    'sidebar content content content content content content content content content content content'
+    'footer footer footer footer footer footer footer footer footer footer footer footer';
+}
+
+/* Trabalhando o Header ___________________________________________________________________*/
+
+#header {
+    grid-area: header;
+    background-color: #009452;
+    display: flex;
+    padding: 0;
+    height: 60px;
+}
+
+#logo-da-clinica {
+    width: 95%;
+}
+
+.voltar {
+    width: 5%;
+}
+
+.txt {
+    color: #fff;
+}
+
+.bolinha {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+.bolinha1 {
+    display: flex;
+    align-items: center;
+    height: 35px;
+}
+
+.btn {
+    background-color: #fff;
+    margin-left: 20px;
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
+}
+.btnn {
+    background-color: #fff;
+    margin-left: 20px;
+    width: 440px;
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
+}
+
+.btn1 {
+    background-color: #12f012;
+    width: 3px;
+    height: 3px;
+    border-radius: 14px;
+    margin-bottom: 1px;
+}
+
+.btn2 {
+    background-color: red;
+    width: 3px;
+    height: 3px;
+    border-radius: 14px;
+}
+.btn3 {
+    background-color: rgb(208, 0, 255);
+    width: 3px;
+    height: 3px;
+    border-radius: 14px;
+}
+
+.btn4 {
+    background-color: yellow;
+    width: 3px;
+    height: 3px;
+    border-radius: 14px;
+}
+
+/* Trabalhando a barra de navegação ________________________________________________________*/
+.fundo {
+    display: flex;
+}
+
+#fundo-barra {
+    background-image: url('../design-figma/Reader_Barra.png') ;
+    background-size: 1270px;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    height: 310px;
+}
+
+#sidebar {
+    grid-area: sidebar;
+    width: 210px;
+    height:600px;
+    background-color: white;
+}
+
+.links-lateral-esq a{
+    text-decoration: none;
+}
+
+.links-lateral-esq {
+    margin-top: 140px;
+    text-align: center;
+}
+
+.h3 {
+    font-weight: normal;
+}
+
+.interno-sidebar {
+    margin: 20px;
+}
+
+.botoes {
+    padding: 50px;
+    margin: 50px;
+}
+
+.botoes-content {
+    margin-left: 190px;
+    margin-top: 120px;
+    max-width: 500px;
+    height: 250px;
+    display: flex; 
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+
+.box {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+}
+
+.box:hover {
+    background-color: #fff;
+    border: #fff;
+    height: 70px;
+    width: 200px;
+    border-radius: 20px;
+    background-color: #009451af;
+}
+
+#content {
+    grid-area: content;
+    height: 481px;
+}
+
+.cor-texto {
+    color: #fff;
+    text-shadow: 0.1em 0.1em 0.4em black;
+}
+
+#dra {
+    margin-left: 200px;
+}
+
+.divisao {
+    display: flex;
+}
+
+.coluna {
+    flex-basis: 50%;
+}
+
+.leticia {
+    background-color: #fff;
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
+    margin-bottom: 10px;
+}
+
+.legenda {
+    background-color: #fff;
+    width: 230px;
+    height: 200px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0.1em 0.1em 0.4em rgba(0, 0, 0, 0.249);
+}
+
+.legenda1 {
+    background-color: rgba(214, 212, 212, 0.792);
+    width: 170px;
+    height: 30px;
+    margin-top: 4px;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 14px ;   
+}
+
+
+/* Trabalhando Rodapé ________________________________________________________*/
+
+#footer {
+    grid-area: footer;
+    padding-top: 5px;
+    background-color: #009452;
+    display: flexbox;
+    padding: 5px 0 0 5px;
+}
+
+.links-rodape a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.end {
+    color: #fff;
+    margin-left: 5px;
+    padding-bottom: 5PX;
+}
+
+#img-logo ul li{
+    margin-right: 20px;
+    display: flex;
+    float: right;
+    margin-top: 22px;
+}
+
