@@ -8,15 +8,10 @@
     <link rel="stylesheet" href="../css/agendas-realizadas_adm.css">
 </head>
 <body>
+    <div id="header">
+    </div>
     <div class="container" id="template-areas" id="plano-fundo">
-        <div id="header">
-            <div id="logo-da-clinica">
-                <a href="index.html"><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
-            </div>
-            <div class="voltar">
-                <a href="index.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
-            </div>
-        </div>
+        
         <div id="olaadm"><h1>Olá {ADM}, </h1></div>
         <tableborder="Selecioneaconsulta:">
         <div id="content">
@@ -24,120 +19,120 @@
             <div id="filtrarpordata"> <p>Filtrar por Data</p>
             <input class="selecionedata" type="date" value="14-03-2023" name="Selecione uma data" id="calendario">
             </div>
-            <table>
-                <div class="salecioneaconsulta"> Selecione a consulta: </div>
-                <thead >
-                    <tr> 
-                    <th>check</th>
-                    <th>Data</th>
-                    <th>Horario</th>
-                    <th>Paciente</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>13/01/2023</td>   
-                        <td>9:00</td>   
-                        <td>Antonio César</td>   
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>13/01/2023</td>   
-                        <td>10:00</td>   
-                        <td>Dale Reynolds</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>13/01/2023</td>   
-                        <td>11:00</td>   
-                        <td>Clara Zboncak</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>13/01/2023</td>   
-                        <td>13:00</td>   
-                        <td>Meghan Swaniawski</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>13/01/2023</td>   
-                        <td>14:00</td>   
-                        <td>Gordon Beer</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>14/01/2023</td>   
-                        <td>9:00</td>   
-                        <td>Antonio César</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>14/01/2023</td>   
-                        <td>10:00</td>   
-                        <td>Jamie Kuphal</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>14/01/2023</td>   
-                        <td>11:00</td>   
-                        <td>Kimberly Tromp</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>14/01/2023</td>   
-                        <td>13:00</td>   
-                        <td>Leona Marvin</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>14/01/2023</td>   
-                        <td>14:00</td>   
-                        <td>Grady Hessel</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>15/01/2023</td>   
-                        <td>9:00</td>   
-                        <td>Marcelo Pereira</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>15/01/2023</td>   
-                        <td>10:00</td>   
-                        <td>Paulo Alves</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>15/01/2023</td>   
-                        <td>11:00</td>   
-                        <td>Larissa Moreira</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>15/01/2023</td>   
-                        <td>13:00</td>   
-                        <td>Gabrielly Moreira</td>
-                    </tr>
-                    <tr>
-                        <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
-                        <td>15/01/2023</td>   
-                        <td>14:00</td>   
-                        <td>Laura Cunha</td>
-                    </tr>
-                    
-                    
-                    
+            <div id="selecioneaconsulta">Selecione a consulta:</div>
+            <div>
+                <table>
+                    <thead >
+                        <tr> 
+                        <th>check</th>
+                        <th>Data</th>
+                        <th>Horario</th>
+                        <th>Paciente</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>13/01/2023</td>   
+                            <td>9:00</td>   
+                            <td>Antonio César</td>   
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>13/01/2023</td>   
+                            <td>10:00</td>   
+                            <td>Dale Reynolds</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>13/01/2023</td>   
+                            <td>11:00</td>   
+                            <td>Clara Zboncak</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>13/01/2023</td>   
+                            <td>13:00</td>   
+                            <td>Meghan Swaniawski</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>13/01/2023</td>   
+                            <td>14:00</td>   
+                            <td>Gordon Beer</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>14/01/2023</td>   
+                            <td>9:00</td>   
+                            <td>Antonio César</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>14/01/2023</td>   
+                            <td>10:00</td>   
+                            <td>Jamie Kuphal</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>14/01/2023</td>   
+                            <td>11:00</td>   
+                            <td>Kimberly Tromp</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>14/01/2023</td>   
+                            <td>13:00</td>   
+                            <td>Leona Marvin</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>14/01/2023</td>   
+                            <td>14:00</td>   
+                            <td>Grady Hessel</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>15/01/2023</td>   
+                            <td>9:00</td>   
+                            <td>Marcelo Pereira</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>15/01/2023</td>   
+                            <td>10:00</td>   
+                            <td>Paulo Alves</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>15/01/2023</td>   
+                            <td>11:00</td>   
+                            <td>Larissa Moreira</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>15/01/2023</td>   
+                            <td>13:00</td>   
+                            <td>Gabrielly Moreira</td>
+                        </tr>
+                        <tr>
+                            <td><input class="confirmar" type = "checkbox" name = "Selecione" value = "Confirmar"></td>
+                            <td>15/01/2023</td>   
+                            <td>14:00</td>   
+                            <td>Laura Cunha</td>
+                        </tr>
+                    </tbody>
+                </table>
                 
-                </tbody>
-            </table>
-           
-        <div><input class="cancelar" type="submit" name="btn-cancel" value="Cancelar?"></div>
-        </div>
+            </div>
+            
+            </div>
+            <div>
+                <input class="cancelar" type="submit" name="btn-cancel" value="Cancelar?">
+            </div>
     </div>
-
-    <footer>     
-        <div id="footer">
+    <footer id="footer">     
+       
             <div id="img-logo">
                 <ul>
                     <li><a href=""><img src="../design-figma/facebook.png" alt="" width="30px" alt=""></li></a>
@@ -156,8 +151,7 @@
                 <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
             </div>
         
-        </div>
+       
     </footer> 
-    
 </body>
 </html>

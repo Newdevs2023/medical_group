@@ -18,7 +18,7 @@ body {
 
     grid-template-areas:
     'header header header header header header header header header header header header'
-    'sidebar content content content content content content content content content content content'
+    'content content content content content content content content content content content content'
     'footer footer footer footer footer footer footer footer footer footer footer footer';
 }
 
@@ -107,13 +107,15 @@ body {
     border-radius: 20px;
     background-color: #009451af;
 }
-
+.container{
+    background-color: greenyellow;
+}
 
 
 #content {
     grid-area: content;
     height: 481px;
-    display: inline;
+
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
@@ -159,9 +161,13 @@ table, th ,  td {
     height: 5px;
     text-align: center;
   }
-  table{
+
+table{
     float: left;
-  }
+    left: 75px;
+    position: absolute;
+}
+
   .cancelar{
     color: #fff;
     background-color: #08474C;
@@ -170,7 +176,10 @@ table, th ,  td {
     padding: 5px 20px;
     height: 45px;
     width: 30%;
-    margin-top: 150px;
+    margin-top: 400px;
+    margin-left: 0%;
+    margin-right: 250px;
+    
   }
   .selecionedata{
     float: right;
@@ -182,4 +191,18 @@ table, th ,  td {
     float: right;
     margin-left: 600px;
     margin-top: 50px;
+    font-size: 150%;
+  }
+
+  #olaadm{
+    height: 30px;
+    padding: 75px;
+  }
+  #selecioneaconsulta{
+    display: flex;
+    padding: 75px 20px;
+    
+    height: 10px;
+    margin-left: 0%;
+    background-color: red;
   }
