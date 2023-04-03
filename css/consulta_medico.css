@@ -316,3 +316,11 @@ table{
 }
 
 
+/* Pagina cadastro agendamento ADM __________________________________________________*/
+
+#calendario_pagina_adm {
+    margin: 20px;
+    float: right;
+    font-size: 15px;
+    margin-right: 90px; 
+}
