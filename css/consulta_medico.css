@@ -8,7 +8,7 @@ body {
     max-width: 100%;
     height: auto;
 }
-   
+
 .container div {
     padding: 13px;
 }
@@ -40,11 +40,6 @@ body {
     width: 5%;
 }
 
-.logar {
-    margin-right: 100px;
-
-}
-
 .txt {
     color: #fff;
 }
@@ -66,7 +61,7 @@ body {
 
 #sidebar {
     grid-area: sidebar;
-    width: 420px;
+    width: 430px;
     height:630px;
     background-color: white;
     margin-left: 40px;
@@ -121,14 +116,14 @@ body {
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
-
+     
 #footer {
     grid-area: footer;
     padding-top: 5px;
     background-color: #009452;
     display: flexbox;
     padding: 5px 0 0 5px;
-    margin-top: 400px;
+    margin-top: 10%;
 }
 
 .links-rodape a {
@@ -150,36 +145,37 @@ body {
     margin-top: 22px;
 }
 
+
 /*Pagina visualização paciente*/ 
 .retangulopadrao {
-background-color: #FFFFFF;
-color: #000;
-width: 650px;
-height: 70px;
-border-radius: 20px;
-text-align: left;
-margin-top: 10px;
-margin-bottom: 10px;
-padding: 10px;
-font-size: medium;
-position:relative;
-border: 0px;
-font-size:larger;
+    background-color: #FFFFFF;
+    color: #000;
+    width: 650px;
+    height: 70px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    border: 0px;
+    font-size:larger;
 }
 .infos {
-background-color: #FFFFFF;
-color: #000;
-width: 450px;
-height: 450px;
-padding: 15px;
-font-size: 30px;
-border-radius: 15px;
-margin-left: 80px;
-text-align: left;
-margin-top: 20px;
-margin-bottom: 20px;
-margin-left: 80px;
-text-decoration: underline;
+    background-color: #FFFFFF;
+    color: #000;
+    width: 450px;
+    height: 450px;
+    padding: 15px;
+    font-size: 30px;
+    border-radius: 15px;
+    margin-left: 80px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 80px;
+    text-decoration: underline;
 }
 #btnveragendas{
     background-color: #08474C;
@@ -216,3 +212,122 @@ text-decoration: underline;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.retangulopadrao_paginadecadastroadm-k {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 500px;
+    height: 35px;
+    border-radius: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    border: 0px;
+    font-size:larger;
+}
+
+.inputs_coluna_2{
+    margin-left: 100px;
+}
+
+.div_inputs {
+    display: flex;
+}
+
+/* Página de cadastro adm, editando botões______________________________________ */
+
+.botoes_paginadecadastroadm-k{
+    color: #fff;
+    background-color: #08474C;
+    border: 2px solid #08474C;
+    border-radius: 20px;
+    padding: 5px 20px;
+    height: 45px;
+    width: 30%;
+    margin-top: 150px;
+}
+
+.btn_enviar_cancelar{
+    display: flex;
+    justify-content: center;
+}
+
+#botoes_paginadecadastroadm-k_btn_enviar{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-right: 140px;
+}
+
+#botoes_paginadecadastroadm-k_btn_cancelar{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-left: 100px;
+}
+
+.tipodecadastro{
+    font-size: 20px;
+    
+}
+
+/* Pagina agendas paciente, adiconado cor de fundo na tabela_____________________ */
+
+table{
+    background-color:white;
+}
+
+
+/* Pagina cadastro agendamento ADM __________________________________________________*/
+
+#calendario {
+    margin: 20px;
+    float: right;
+    font-size: 18px;
+    margin-right: 50px;
+}
+
+.retangulopadrao_cadastroagendamento_adm {
+    background-color: #FFFFFF;
+    color: #000;
+    width: 500px;
+    height: 40px;
+    border-radius: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 10px;
+    font-size: medium;
+    position:relative;
+    font-size:larger;
+}
+
+.btn_cadastroagendamento_adm {
+    color: #fff;
+    background-color: #08474C;
+    border: 2px solid #08474C;
+    border-radius: 20px;
+    padding: 5px 20px;
+    height: 45px;
+    width: 30%;
+    margin-top: 150px;
+}
+
+
+/* Pagina cadastro agendamento ADM __________________________________________________*/
+
+#calendario_pagina_adm {
+    margin: 20px;
+    float: right;
+    font-size: 15px;
+    margin-right: 90px; 
+}
+
+h5 {
+    text-align: right;
+    margin-right: 122px;
+    font-size: 14px;
+    
+}
