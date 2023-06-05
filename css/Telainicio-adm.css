@@ -41,8 +41,17 @@ body {
 }
 
 .logar {
-    margin-right: 100px;
+    margin-right: 10px;
+    color: white;
+}
 
+.logar button {
+    padding: 7px;
+    background-color: rgb(21, 175, 21);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: white;
 }
 
 .txt {

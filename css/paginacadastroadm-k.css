@@ -46,6 +46,13 @@ body {
 
 
 /* Trabalhando a barra de navegação ________________________________________________________*/
+
+#caixaselecao {
+    margin-top: 3px;
+    margin-left: 28px;
+    font-size: 20px;
+    border-radius: 10px;
+}
 .fundo {
     display: flex;
 }
