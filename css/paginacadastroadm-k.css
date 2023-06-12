@@ -119,7 +119,7 @@ body {
 
 #content {
     grid-area: content;
-    height: 481px;
+    height: 281px;
     /* display: flex; */
 }
 

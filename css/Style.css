@@ -111,6 +111,7 @@ body {
 
 
 #content {
+    margin-top: 25px;
     grid-area: content;
     height: 481px;
 }

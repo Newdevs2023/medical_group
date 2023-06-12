@@ -9,6 +9,10 @@ body {
     height: auto;
 }
 
+h2 {
+    margin-top: 20px;
+}
+
 .container div {
     padding: 13px;
 }

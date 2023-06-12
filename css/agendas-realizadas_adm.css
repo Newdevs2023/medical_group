@@ -50,7 +50,7 @@ body {
 #olaadm{
     height: 100px;
     padding: 75px;
-    margin-left: 30px;
+    margin-left: 20px;
 
   }
   table, th ,  td {
@@ -78,7 +78,7 @@ table{
     padding: 5px 20px;
     height: 45px;
     width: 30%;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-right: 250px;
   }
 .cancela{
@@ -93,7 +93,6 @@ table{
   }
   #filtrarpordata {
     float: right;
-    margin-top: 0px;
     font-size: 15px;
     margin-right: 250px;
   }
