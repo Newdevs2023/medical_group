@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt.bt">
+<html lang="pt-bt">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +8,7 @@
     <title>Página de cadastro</title>
     <link rel="stylesheet" href="../css/paginacadastroadm-k.css">
 </head>
+
 <body>
     <div class="container" id="template-areas" id="plano-fundo">
         <div id="header">
@@ -14,64 +16,82 @@
                 <a href=""><img src="../design-figma/logo-clinica.png" alt="" width="170px" height="41px"></a>
             </div>
             <div class="voltar">
-                <a href="pagina-menu_adm.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px" height="36px"></a>
+                <a href="pagina-menu_adm.html"><img src="../design-figma/Seta-voltar.png" alt="" width="36px"
+                        height="36px"></a>
             </div>
         </div>
-        
+
         <div id="content">
             <form action="container" method="get">
-    
-                <select name="Selecione o tipo de Cadastro" id="caixaselecao">
-                    <option class="tipodecadastro" value="selecione o tipo de Cadastro">Selecione o Tipo de Cadastro</option>
-                    <option value="medico">Médico</option>
-                    <option value="paciente">Paciente</option>
-                    <option value="administrador">Administrador</option>
+
+                <h1>Selecione o tipo de Cadastro </h1>
+                <select id="opcoes" onchange="mostrarInputs(this.value)">
+                    <option value="selecione" >Selecione</option>
+                    <option value="medico" onclick="mostrarInputs()">Médico</option>
+                    <option value="paciente" onclick="mostrarInputs()">Paciente</option>
+                    <option value="administrador" onclick="mostrarInputs()">Administrador</option>
                 </select><br><br>
+                <input type="text" id="medico" style="display: none">
+                <input type="text" id="paciente" style="display: none">
+                <input type="text" id="administrador" style="display: none">
                 <div class="div_inputs">
+
                     <div class="inputs_coluna_1">
-                        Nome Completo:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="nome completo"required ><br>
-            
-                        Data de Nascimento:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="data de nascimento"required ><br>
-            
-                        Numero da Carteirinha:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="numero da carteirinha"required ><br>
-            
-                        Telefone:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="telefone"required placeholder="(99)99999-9999"><br>
-            
-                        Especialidade:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="especialidade"required ><br>
-            
-                        RG:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="RG"required ><br>
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="nome" type="text" name="nome completo"
+                            required style="display: none" placeholder="Nome Completo:"><br>
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="data" type="text" name="data de nascimento"
+                            required style="display: none" placeholder="Data de Nascimento:"><br>
+
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="telefone" type="text" name="telefone" required style="display: none"
+                            placeholder="Telefone:(XX)XXXXXXX"><br>
+
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="especialidade" type="text" name="especialidade"
+                            required style="display: none" placeholder="Especialidade:"><br>
+
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="rg" type="text" name="RG" style="display: none" required placeholder="RG:"><br>
                     </div>
                     <div class="inputs_coluna_2">
-                        CPF:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="CPF"required ><br>
-            
-                        Endereco:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="endereco"required ><br>
-            
-                        Convenio:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="text" name="convenio"required ><br>
-            
-                        Email:<br>
-                        <input class="retangulopadrao_paginadecadastroadm-k" type="email" name="email"required placeholder="seuemail@gmail.com"><br>
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="cpf" type="text" name="CPF" required style="display: none" placeholder="CPF:"><br>
+
+                        
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="email" type="email" name="email" required style="display: none"
+                            placeholder="Email:"><br>
+
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="crm" type="crm" name="crm" required style="display: none"
+                        placeholder="CRM"><br>
+
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="nCarteirinha" type="text" name="numero da carteirinha"
+                            required style="display: none" placeholder="Numero da Carteirinha:"><br>
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="endereco" type="text" name="endereco" required style="display: none" placeholder="Endereco:"><br>
+                    
+                        <br>
+                        <input class="retangulopadrao_paginadecadastroadm-k" id="convenio" type="text" name="convenio" required style="display: none" style="display: none" placeholder="Convenio:"><br>
+
                     </div>
                 </div>
-                
-                <div class="btn_enviar_cancelar">
-                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_enviar" type="submit" name="btn-enviar" value="Enviar"><br><br>
 
-                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_cancelar" type="submit" name="btn-cancelar" value="Cancelar">
+                <div class="btn_enviar_cancelar">
+                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_enviar"
+                        type="submit" name="btn-enviar" value="Enviar"><br><br>
+
+                    <input class="botoes_paginadecadastroadm-k" id="botoes_paginadecadastroadm-k_btn_cancelar"
+                        type="submit" name="btn-cancelar" value="Cancelar">
                 </div>
             </form>
         </div>
     </div>
 
-    <footer>     
+    <footer>
         <div id="footer">
             <div id="img-logo">
                 <ul>
@@ -86,13 +106,16 @@
                 <a href="quemsomos-k.html" target=""><b>Quem Somos</b></a>
                 <a href="Telainicio-adm.html" target=""><b>Serviços</b></a><br><br><br>
             </div>
-            
+
             <div class="end">
                 <p>END: AV. REBOUÇAS 1000 - JARDIM SÃO CARLOS SUMARÉ-SP - CEP 14356-876 - CNPJ 12.867.964/0001-32</p>
             </div>
-        
+
         </div>
-    </footer> 
-    
+    </footer>
+
+    <script src="../js/javascript.js"></script>
+
 </body>
+
 </html>
