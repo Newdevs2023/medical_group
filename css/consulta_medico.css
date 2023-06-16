@@ -1,4 +1,8 @@
-* {margin: 0; padding: 0; box-sizing: border-box;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
     background: url(../design-figma/plano-fundo.jfif);
@@ -9,6 +13,18 @@ body {
     height: auto;
 }
 
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px;
+    z-index: 9999;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
 .container div {
     padding: 13px;
 }
@@ -17,9 +33,9 @@ body {
     display: grid;
 
     grid-template-areas:
-    'header header header header header header header header header header header header'
-    'sidebar content content content content content content content content content content content'
-    'footer footer footer footer footer footer footer footer footer footer footer footer';
+        'header header header header header header header header header header header header'
+        'sidebar content content content content content content content content content content content'
+        'footer footer footer footer footer footer footer footer footer footer footer footer';
 }
 
 /* Trabalhando o Header ___________________________________________________________________*/
@@ -44,25 +60,23 @@ body {
     color: #fff;
 }
 
-
 /* Trabalhando a barra de navegação ________________________________________________________*/
 .fundo {
     display: flex;
 }
 
 #fundo-barra {
-    background-image: url('../design-figma/Reader_Barra.png') ;
+    background-image: url('../design-figma/Reader_Barra.png');
     background-size: 1270px;
     background-repeat: no-repeat;
     margin-top: 40px;
     height: 310px;
-    
 }
 
 #sidebar {
     grid-area: sidebar;
     width: 430px;
-    height:630px;
+    height: 630px;
     background-color: white;
     margin-left: 40px;
     border-radius: 20px;
@@ -86,9 +100,9 @@ body {
     margin-top: 120px;
     max-width: 500px;
     height: 250px;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 .box {
@@ -108,15 +122,13 @@ body {
     background-color: #009451af;
 }
 
-
-
 #content {
     grid-area: content;
     height: 481px;
 }
 
 /* Trabalhando Rodapé ________________________________________________________*/
-     
+
 #footer {
     grid-area: footer;
     padding-top: 5px;
@@ -138,7 +150,7 @@ body {
     padding-bottom: 5PX;
 }
 
-#img-logo ul li{
+#img-logo ul li {
     margin-right: 20px;
     display: flex;
     float: right;
@@ -146,7 +158,7 @@ body {
 }
 
 
-/*Pagina visualização paciente*/ 
+/*Pagina visualização paciente*/
 .retangulopadrao {
     background-color: #FFFFFF;
     color: #000;
@@ -158,10 +170,11 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     font-size: medium;
-    position:relative;
+    position: relative;
     border: 0px;
-    font-size:larger;
+    font-size: larger;
 }
+
 .infos {
     background-color: #FFFFFF;
     color: #000;
@@ -177,7 +190,8 @@ body {
     margin-left: 80px;
     text-decoration: underline;
 }
-#btnveragendas{
+
+#btnveragendas {
     background-color: #08474C;
     color: #FFFFFF;
     width: 250px;
@@ -187,10 +201,9 @@ body {
     margin-top: 130px;
     padding: 10px;
     font-size: medium;
-    position:relative;
+    position: relative;
     text-align: center;
 }
-
 
 /* pagina quem somos_____________________________________ */
 
@@ -198,7 +211,6 @@ body {
     margin: 20px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
 }
 
 .subtitulo_quemsomos {
@@ -223,12 +235,12 @@ body {
     margin-bottom: 10px;
     padding: 10px;
     font-size: medium;
-    position:relative;
+    position: relative;
     border: 0px;
-    font-size:larger;
+    font-size: larger;
 }
 
-.inputs_coluna_2{
+.inputs_coluna_2 {
     margin-left: 100px;
 }
 
@@ -238,7 +250,7 @@ body {
 
 /* Página de cadastro adm, editando botões______________________________________ */
 
-.botoes_paginadecadastroadm-k{
+.botoes_paginadecadastroadm-k {
     color: #fff;
     background-color: #08474C;
     border: 2px solid #08474C;
@@ -249,36 +261,34 @@ body {
     margin-top: 150px;
 }
 
-.btn_enviar_cancelar{
+.btn_enviar_cancelar {
     display: flex;
     justify-content: center;
 }
 
-#botoes_paginadecadastroadm-k_btn_enviar{
+#botoes_paginadecadastroadm-k_btn_enviar {
     display: flex;
     justify-content: center;
     margin: 20px;
     margin-right: 140px;
 }
 
-#botoes_paginadecadastroadm-k_btn_cancelar{
+#botoes_paginadecadastroadm-k_btn_cancelar {
     display: flex;
     justify-content: center;
     margin: 20px;
     margin-left: 100px;
 }
 
-.tipodecadastro{
+.tipodecadastro {
     font-size: 20px;
-    
 }
 
 /* Pagina agendas paciente, adiconado cor de fundo na tabela_____________________ */
 
-table{
-    background-color:white;
+table {
+    background-color: white;
 }
-
 
 /* Pagina cadastro agendamento ADM __________________________________________________*/
 
@@ -300,8 +310,8 @@ table{
     margin-bottom: 5px;
     padding: 10px;
     font-size: medium;
-    position:relative;
-    font-size:larger;
+    position: relative;
+    font-size: larger;
 }
 
 .btn_cadastroagendamento_adm {
@@ -315,19 +325,17 @@ table{
     margin-top: 150px;
 }
 
-
 /* Pagina cadastro agendamento ADM __________________________________________________*/
 
 #calendario_pagina_adm {
     margin: 20px;
     float: right;
     font-size: 15px;
-    margin-right: 90px; 
+    margin-right: 90px;
 }
 
 h5 {
     text-align: right;
     margin-right: 122px;
     font-size: 14px;
-    
 }
